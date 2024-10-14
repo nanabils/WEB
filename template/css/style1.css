@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Menambahkan latar belakang berwarna biru muda */
+}
+
+header {
+    background-color: #280872;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 10px;
+    border-right: 1px dotted #f9f9f9;
+    padding-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu-item img {
+    max-width: 60%; /* Mengubah ukuran gambar menjadi 60% dari lebar kontainer */
+    height: auto; /* Memastikan proporsi gambar tetap terjaga */
+    border-radius: 15px; /* Mengubah radius border menjadi 15px untuk sudut yang lebih lembut */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan pada gambar menu */
+}
+
+.menu-item h3 {
+    color: #280872; /* Mengubah warna teks judul menu menjadi warna ungu gelap */
+    font-size: 22px; /* Meningkatkan ukuran font */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital semua */
+}
+
+#hours {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#hours p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #280872;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
